@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Game</title>
+    <style>
+    canvas {
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="1450" height="700"></canvas>
+    
+    <div style="text-align:center">
+    <input type="button" value="Start" id="startbut" onclick="change_state();" style="width: 200px; height: 60px; font-size: 40px;"> 
+    <input type="button" value="Reset" id="resetbut" onclick="reset_map();" style="width: 200px; height: 60px; font-size: 40px;">
+    <div id="count">Generation: 0</div>
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
